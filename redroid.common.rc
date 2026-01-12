@@ -22,6 +22,7 @@ on early-init
     exec -- /bin/rm -rf /dev/input
     # inputflinger require this dir
     mkdir /dev/input
+    chmod 666 /dev/input
 
     # disable codec2 by default, DMA Heap required
     setprop debug.stagefright.ccodec 0

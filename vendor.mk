@@ -12,6 +12,7 @@ PRODUCT_COPY_FILES += \
     vendor/redroid/post-fs-data.redroid.sh:$(TARGET_COPY_OUT_VENDOR)/bin/post-fs-data.redroid.sh \
     vendor/redroid/redroid.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/redroid.common.rc \
     vendor/redroid/redroid.legacy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/redroid.legacy.rc \
+    vendor/redroid/waydroid.prop:$(TARGET_COPY_OUT_VENDOR)/waydroid.prop \
 
 
 PRODUCT_COPY_FILES += \
